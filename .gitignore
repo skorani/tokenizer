@@ -1,115 +1,172 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
+*~
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.apt_generated
+.apt_generated/
+atlassian-ide-plugin.xml
+.autotools
+*.bak
+bin/
+*.box
 build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
+.buildpath
+.cache
+.cache-main
+celerybeat-schedule
+*.class
+.classpath
+cmake-build-*/
+.com.apple.timemachine.donotpresent
+com_crashlytics_export_strings.xml
+*.cover
 .coverage
 .coverage.*
-.cache
-nosetests.xml
 coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
+.cproject
+crashlytics-build.properties
+crashlytics.properties
 db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+develop-eggs/
+.directory
+dist/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
+docs/_build/
+.DocumentRevisions-V100
+downloads/
+.DS_Store
+*.egg
+*.egg-info/
+.eggs/
+eggs/
+.env
+env/
+ENV/
+env.bak/
+.externalToolBuilders/
+fabric.properties
+.factorypath
+.fseventsd
+.fuse_hidden*
+htmlcov/
+.hypothesis/
+Icon
+.idea/
+.idea/caches/build_file_checksums.ser
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dbnavigator.xml
+.idea/**/dictionaries
+.idea/**/dynamic.xml
+.idea/**/gradle.xml
+.idea/httpRequests
+.idea/**/libraries
+.idea/misc.xml
+.idea_modules/
+.idea/**/mongoSettings.xml
+.idea/replstate.xml
+.idea/**/shelf
+.idea/sonarlint
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+*.iml
+.installed.cfg
+instance/
+*.ipr
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
+ipython_config.py
+*.iws
+*.launch
+lib/
+lib64/
+.loadpath
+local.properties
+local_settings.py
+*.log
+.LSOverride
+*.manifest
+MANIFEST
+.metadata
+*.mo
+modules.xml
+.mr.developer.cfg
+.mypy_cache/
+.netrwhist
+Network Trash Folder
+.nfs*
+*~.nib
+nosetests.xml
+.nox/
+out/
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+*.pot
+profile_default/
+.project
+__pycache__/
+*.py[cod]
+*.pydevproject
+.pydevproject
 .pyre/
+.pytest_cache/
+.Python
+.python-version
+.recommenders
+.recommenders/
+.ropeproject
+*.sage.py
+[._]s[a-rt-v][a-z]
+[._]*.s[a-v][a-z]
+.scala_dependencies
+.scrapy
+sdist/
+Session.vim
+Sessionx.vim
+.settings/
+share/python-wheels/
+/site
+*.so
+*.spec
+.Spotlight-V100
+.springBeans
+.spyderproject
+.spyproject
+[._]ss[a-gi-z]
+.sts4-cache/
+[._]*.sw[a-p]
+[._]sw[a-p]
+*.swp
+tags
+.target
+target/
+.TemporaryItems
+Temporary Items
+.tern-project
+.texlipse
+*.tmp
+tmp/
+.tox/
+.Trash-*
+.Trashes
+[._]*.un~
+.vagrant/*
+var/
+.venv
+venv/
+venv.bak/
+.vim
+.VolumeIcon.icns
+.webassets-cache
+wheels/
+.worksheet
