@@ -1,4 +1,4 @@
-from flashtext import KeywordProcessor
+import KeywordProcessor
 import lookup_dic
 
 
