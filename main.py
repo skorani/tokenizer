@@ -6,12 +6,13 @@ import lookup_dic as lk
 import token as tok
 
 counter = {}
-clean_text =[]
+clean_text = []
 # read the text in list clean_text
 
+
 def main():
- lk.create_dic_code()
- tok.init()
+    lk.create_dic_code()
+    tok.init()
     for text in clean_text:
         tokens = tok.tokenize(text)
         for token in tokens:
@@ -27,5 +28,7 @@ def main():
                 # print(token)
                 test = lk.reverse_replace(format(token))
                 # print(test)
+
+
 if __name__ == "__main__":
     main()

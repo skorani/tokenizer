@@ -3,18 +3,15 @@ lookup_reverse_dic_CODE = {}
 lookup_dic_CODE = {}
 
 
-
 def create_dic_code():
     global lookup_reverse_dic_CODE
     global lookup_dic_CODE
-    with open ('phrase.csv') as  reveresd_array:
-     for row in reveresd_array:
-        replace_with, phrase = row
-        # Now print fetched result
-        lookup_dic_CODE.update({replace_with: [phrase]})
-        lookup_reverse_dic_CODE.update({phrase: [replace_with]})
-    cursor.close()
-    return
+    with open('phrase.csv') as reveresd_array:
+        for row in reveresd_array:
+            replace_with, phrase = row
+            # Now print fetched result
+            lookup_dic_CODE.update({replace_with: [phrase]})
+            lookup_reverse_dic_CODE.update({phrase: [replace_with]})
 
 
 def reverse_replace(_token_):
