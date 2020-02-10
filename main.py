@@ -2,19 +2,18 @@
 #-*- encoding: utf-8 -*-
 
 
-import lookup_dic as lk
-import token as tok
+from tokenizer import _tokenizer as tok
 
 counter = {}
 clean_text = []
-# read the text in list clean_text
 
 
 def main():
-    lk.create_dic_code()
+    clean_text = [input()]
     tok.init()
     for text in clean_text:
         tokens = tok.tokenize(text)
+        print(tokens)
         for token in tokens:
             if type(token) == list:
                 token = token[0]
@@ -22,12 +21,9 @@ def main():
                 counter[token] += 1
             else:
                 counter[token] = 1
-            # print(counter)
             newCounter = {}
             for token, count in counter.items():
-                # print(token)
-                test = lk.reverse_replace(format(token))
-                # print(test)
+                print(token, count)
 
 
 if __name__ == "__main__":
