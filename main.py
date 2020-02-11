@@ -21,7 +21,6 @@ def main():
                 counter[token] += 1
             else:
                 counter[token] = 1
-            newCounter = {}
             for token, count in counter.items():
                 print(token, count)
 
