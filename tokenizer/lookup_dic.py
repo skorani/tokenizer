@@ -10,14 +10,12 @@ def read_phrases(phrase_file="data/phrases.csv"):
     global lookup_reverse_dic_CODE
     global lookup_dic_CODE
     with open(phrase_file) as f:
-        reader = csv.reader(f)
-        for row in reader:
-            try:
-                phrase, replace_with = row
-            except ValueError:
-                pass
+        reveresd_array = csv.reader(f)
+        for row in reveresd_array:
+            replace_with, phrase = row
             lookup_dic_CODE.update({replace_with: [phrase]})
             lookup_reverse_dic_CODE.update({phrase: [replace_with]})
+        return
 
 
 def reverse_replace(_token_):
