@@ -3,14 +3,14 @@
 
 
 from tokenizer import _tokenizer as tok
+from tokenizer import lookup_dic as lk 
 
 counter = {}
-clean_text = []
-
 
 def main():
     clean_text = [input()]
     tok.init()
+    lk.create_dic_code()
     for text in clean_text:
         tokens = tok.tokenize(text)
         print(tokens)
