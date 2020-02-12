@@ -4,7 +4,6 @@
 import lookup_dic as lk
 import token as tok
 
-clean_text = []
 
 def main():
     lk.read_phrases()
