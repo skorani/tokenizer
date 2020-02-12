@@ -4,13 +4,13 @@
 import lookup_dic as lk
 import token as tok
 
-counter = {}
 clean_text = []
 
 def main():
-    clean_text = [input()]
-    tok.init()
     lk.read_phrases()
+    tok.init()
+    clean_text = [input()]
+    counter = {}
     for text in clean_text:
         tokens = tok.tokenize(text)
         print(tokens)
