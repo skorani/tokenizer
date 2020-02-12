@@ -1,7 +1,7 @@
 import csv
 
 
-reveresd_array = []
+reveresd_array = {}
 lookup_reverse_dic_CODE = {}
 lookup_dic_CODE = {}
 
