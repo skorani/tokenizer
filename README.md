@@ -4,7 +4,7 @@ The fantastic "Pizza Tokenizer" by S. Korani.
 
 ## Usage:
 
-**Note 1**: This code is under heavy development and may introduce *back-ward incompatible* changes to its API.  
+**Note 1**: This code is under heavy development and may introduce *backward incompatible* changes to its API.  
 **Note 2**: This tokenizer gets a normalized input. For now, if you want to test
 this code you must remove puntuations and extra whitespaces from your text.
 
