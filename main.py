@@ -10,7 +10,7 @@ clean_text = []
 def main():
     clean_text = [input()]
     tok.init()
-    lk.create_dic_code()
+    lk.read_phrases()
     for text in clean_text:
         tokens = tok.tokenize(text)
         print(tokens)
