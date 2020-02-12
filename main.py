@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 #-*- encoding: utf-8 -*-
 
-import lookup_dic as lk
-import token as tok
+
+from tokenizer import _tokenizer as tok
+
+counter = {}
+clean_text = []
 
 
 def main():
-    lk.read_phrases()
-    tok.init()
     clean_text = [input()]
-    counter = {}
+    tok.init()
     for text in clean_text:
         tokens = tok.tokenize(text)
         print(tokens)
@@ -20,6 +21,7 @@ def main():
                 counter[token] += 1
             else:
                 counter[token] = 1
+            newCounter = {}
             for token, count in counter.items():
                 print(token, count)
 
