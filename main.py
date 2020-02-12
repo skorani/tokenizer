@@ -8,7 +8,7 @@ counter = {}
 clean_text = []
 
 def main():
-    clean_text = input()
+    clean_text = [input()]
     lk.create_dic_code()
     for text in clean_text:
         tokens = tok.tokenize(text)
