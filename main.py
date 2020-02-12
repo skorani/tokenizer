@@ -9,7 +9,6 @@ clean_text = []
 
 def main():
     clean_text = input()
-    tok.init()
     lk.create_dic_code()
     for text in clean_text:
         tokens = tok.tokenize(text)
