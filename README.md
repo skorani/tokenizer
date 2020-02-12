@@ -1,12 +1,12 @@
+
 # PizzaTokenizer
 
 The fantastic "Pizza Tokenizer" by S. Korani.
 
 ## Usage:
 
-**Note 1**: This code is under heavy development and may introduce *backward incompatible* changes to its API.  
-**Note 2**: This tokenizer gets a normalized input. For now, if you want to test
-this code you must remove puntuations and extra whitespaces from your text.
+**Note 1**: This module is developing. 
+**Note 2**: This tokenizer needs normalized data. if you want to test this module, you must remove punctuations and extra whitespaces from your text.
 
 To use the tokenizer copy `tokenizer` directory to your project path or add
 its path to python's module search path. Then
