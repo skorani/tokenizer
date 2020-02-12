@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 #-*- encoding: utf-8 -*-
 
-
-from tokenizer import _tokenizer as tok
-from tokenizer import lookup_dic as lk 
+import lookup_dic as lk
+import token as tok
 
 counter = {}
 clean_text = []
