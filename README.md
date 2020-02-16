@@ -1,7 +1,6 @@
-
 # PizzaTokenizer
 
-The fantastic "Pizza Tokenizer" by S. Korani.
+The Semantic Tokenizer "Pizza Tokenizer" by S. Korani.
 
 ## Usage:
 
@@ -13,12 +12,12 @@ its path to python's module search path. Then
 
     import tokenizer
 
-First, the tokenizer must be initialized:
+Initialize tokenizer by instantiating `Tokenizer` class:
 
-    tokenizer.init()
+    tokenizer_object = tokenizer.Tokenizer()
 
 Now, you could tokenize ***normalized*** text with it.
 
-    tokenizer.token("your normalized string")
+    tokenizer_object("your normalized string")
 
 This function returns a list of Semantic Tokens.

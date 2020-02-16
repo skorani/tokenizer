@@ -5,16 +5,16 @@ import logging
 
 from collections import Counter
 
-from tokenizer import _tokenizer as tok
+from tokenizer import Tokenizer
 
 logging.basicConfig()
 
 
 def main():
     clean_text = [input()]
-    tok.init()
+    tok = Tokenizer()
     for text in clean_text:
-        tokens = tok.tokenize(text)
+        tokens = tok(text)
         print(tokens)
         counts = Counter(tokens)
         for token, count in counts.items():
