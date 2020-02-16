@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+import logging
+
 from collections import Counter
 
 from tokenizer import _tokenizer as tok
 
-counter = {}
-clean_text = []
+logging.basicConfig()
 
 
 def main():

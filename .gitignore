@@ -170,3 +170,4 @@ venv.bak/
 .webassets-cache
 wheels/
 .worksheet
+*.BAK
