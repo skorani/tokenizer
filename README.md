@@ -16,7 +16,7 @@ Initialize tokenizer by instantiating `Tokenizer` class:
 
     tokenizer_object = tokenizer.Tokenizer()
 
-Now, you could tokenize ***normalized*** text with it.
+Now, you could tokenize ***normalized*** text with the method below:
 
     tokenizer_object("your normalized string")
 
